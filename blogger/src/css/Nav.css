@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+}
+.navBar{
+    display:none;
+}
+.navBar__active{
+    height:100%;
+    width:20%;
+    background-color: blue;
+    display: flex;
+    
+}
+
+
+.navBar__button{
+    position: static;
+}
