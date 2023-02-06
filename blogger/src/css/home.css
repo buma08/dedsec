@@ -1,0 +1,20 @@
+.information__div{
+    background-color: red;
+    width:70%;
+    display: block;
+    height:100vh;
+    margin-left:15%;
+}
+.information__title{
+   display:block;
+   background:rgb(55, 0, 255);
+   text-align: center;
+   font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top:7vh;
+   color:aliceblue
+}
+.information__subtitle-div{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+}

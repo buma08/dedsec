@@ -16,15 +16,12 @@
     display:table;
     color:#ffffff;
 }
-.navBar__item{
-    padding:25px;
-}
 
 .navBar__li{
     list-style: none;
-    margin-left: 50px;
+    margin-left: 30px;
     border-bottom: 0.5px solid grey;
-    width:70%;
+    
     transition: all 0.25s ease;
 }
 
@@ -42,11 +39,17 @@ svg{
     .active{
         color:aliceblue
     }
-@media only screen and (min-width: 768px) {
 
+    .navBar__search{
+        display: none;
+    }
+@media only screen and (min-width: 768px) {
+    .navBar__button-close-div{
+        display: none;
+    }
     .navBar{
         margin-left:15%;
-        background-color: red;
+       color:grey;
         font-size: 1rem;
         display:flex;
         width:70%;
@@ -57,7 +60,42 @@ svg{
         display: none;
     }
     .navBar__li{
-    border:none
+    border:none;
+    height:50%;
+    padding:2px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
 }
-
+.navBar__item{
+    margin-top:6px;
+    text-align: center;
+}
+.navBar__search{
+background: none;
+border:1px groove whitesmoke;
+border-radius:15px;
+width:10rem;
+margin-left:50px;
+margin-top:5px;
+display:block;
+color:aliceblue;
+}
+.navBar__li-first{
+    margin-left:10%;
+}
+.navBar__li:hover{
+    background-color: rgb(49, 49, 56);
+}
+.navBar__li-search:hover{
+background: none;
+}
+.navBar__search-div{
+    display:block;
+    position: absolute;
+    margin-left:48%;
+    margin-top:-5px;
+}
   }
