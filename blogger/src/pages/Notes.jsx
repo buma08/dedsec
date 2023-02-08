@@ -45,39 +45,6 @@ function NotesPage() {
             <p className="social-media__subtitle">Follow me on twitter</p>
           </div>
         </div>
-        <div className="social-media">
-          <img
-            src={img3}
-            alt=""
-            className="note-logo"
-          />
-          <div className="social-media__title-div">
-            <h3 className="social-media__title">Pentesting</h3>
-            <p className="social-media__subtitle">Follow me on twitter</p>
-          </div>
-        </div>
-        <div className="social-media">
-          <img
-            src={img3}
-            alt=""
-            className="note-logo"
-          />
-          <div className="social-media__title-div">
-            <h3 className="social-media__title">Pentesting</h3>
-            <p className="social-media__subtitle">Follow me on twitter</p>
-          </div>
-        </div>
-        <div className="social-media">
-          <img
-            src={img3}
-            alt=""
-            className="note-logo"
-          />
-          <div className="social-media__title-div">
-            <h3 className="social-media__title">Pentesting</h3>
-            <p className="social-media__subtitle">Follow me on twitter</p>
-          </div>
-        </div>
       </div>
       
 
