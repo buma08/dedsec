@@ -57,8 +57,8 @@ svg{
        color:grey;
         font-size: 1rem;
         display:flex;
-        width:70%;
-        height: 60px;
+        width:80%;
+        height: 7vh;
         font-family: Arial, Helvetica, sans-serif;
     }
     .navBar__button-open-div{
@@ -94,12 +94,17 @@ position:relative;
 display:inline-flex;
 color:aliceblue;
 left:20px;
+
 }
 .navBar__li-first{
     margin-left:25%;
 }
 .navBar__li:hover{
     background-color: rgb(49, 49, 56);
+}
+.navBar__li-search{
+    list-style: none;
+    margin-top: 2vh;
 }
 .navBar__li-search:hover{
 background: none;
@@ -110,6 +115,7 @@ background: none;
     position:relative;
     bottom:-0.7vh;
     left:80px;
+    
 }
 .navBar__search-icon-div{
     position:relative;
@@ -121,4 +127,24 @@ background: none;
 .active:hover{
     background: none;
 }
+  }
+  @media only screen and (max-width:1530px){
+    .navBar{
+        height:9vh
+    }
+    .navBar__search-div{
+        display:inline-flex;
+        width:30vw;
+        position:relative;
+        bottom:-0.7vh;
+        left:50px;
+    }
+    .navBar__li-first{
+        margin-left:1.25%;
+    }
+  }
+  @media only screen and (min-height:750px) {
+    .navBar{
+        height: 7vh;
+    }
   }
