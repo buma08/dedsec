@@ -9,7 +9,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .title{
-    margin-top:10vh;
+    margin-top:15vh;
     font-size:400%;
     color:white
 }
@@ -44,16 +44,16 @@
     display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    height:40%;
-    width:45%;
+    height:50%;
+    width:46%;
     margin:10px;
     border-radius:5px;
     transition: all 0.1s;
 }
 .logo{
-    width:120px;
-    height:70px;
-    padding:10px;
+    width:4vw;
+    height:4vw;
+    padding:0.4rem;
     padding-bottom: 20px;
 }
 .social-media__title{
@@ -76,7 +76,7 @@ margin-left  :20px;
 }
 .all-time-views__subtitle{
     font-size:3rem;
-    margin-top:20px;
+    margin-top:0vh;
     color:white;
 }
 a{
@@ -87,11 +87,6 @@ a{
 .external-link__div{
 position: relative;
 bottom:2.6vh;
-}
-
-.social-media:hover{
-    width:46%;
-    height:41%;
 }
 
 
@@ -113,13 +108,13 @@ bottom:2.6vh;
     display:flex;
     
     margin-left  :2vw;
-    font-size: 1.55rem;
+    font-size: 1.4rem;
     margin-top: 2vh;
 }
 .featured-posts__views-div{
     display: flex;
     flex-direction: row;
-    margin-top:10%;
+    margin-top:5%;
     align-items: center;
     width:100%;
     height:40%;

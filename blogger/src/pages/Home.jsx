@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import { RiExternalLinkFill } from "react-icons/ri";
 import {AiFillEye} from 'react-icons/ai'
-
+import img from '../assets/telegram.png'
 import "../css/pages/home.css";
 import Footer from "../components/Footer";
 function HomePage() {
@@ -23,7 +23,7 @@ function HomePage() {
             <div className="social-media">
               <img
                 className="logo"
-                src="https://download.logo.wine/logo/Telegram_(software)/Telegram_(software)-Logo.wine.png"
+                src={img}
               ></img>
               <div className="social-media__title-div">
                 <h3 className="social-media__title">Telegram</h3>
@@ -56,12 +56,11 @@ function HomePage() {
             <div className="social-media">
               <h3 className="social-media__title all-time-views__title">
                 <a href="/" target="_blank">
-                  {" "}
-                  All-Time Views{" "}
+                  All-Time Views
                   <div className="external-link__div">
                     <RiExternalLinkFill></RiExternalLinkFill>
                   </div>
-                </a>{" "}
+                </a>
               </h3>
               <p className="social-media__subtitle all-time-views__subtitle">
                 <b>0</b>
