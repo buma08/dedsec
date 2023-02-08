@@ -1,0 +1,19 @@
+.notes-div{
+    display:flex;
+    height:50vh;
+    width:45vw;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left:16vw;
+    margin-top: 5vh;
+    
+}
+.notes__title{
+    margin-top: -4vh !important;
+}
+.note-logo{
+    width:70px;
+    height:70px;
+    padding:10px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+.footer__line{
+    margin-top:6vh;
+    
+}
+.footer{
+    display:flex;
+    
+    width:70%;
+    margin-left:20vw;
+}
+.footer__link{
+    margin:3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+.footer__link:hover{
+    color:rgb(79, 79, 79)
+}

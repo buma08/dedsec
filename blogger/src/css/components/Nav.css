@@ -1,6 +1,7 @@
 *{
     margin:0px;
 }
+
 .navBar{
     margin-left:-350%;
     transition: all 0.5s ease;
@@ -15,6 +16,7 @@
     font-family: Arial, Helvetica, sans-serif;
     display:table;
     color:#ffffff;
+    position: fixed;
 }
 
 .navBar__li{
@@ -35,7 +37,7 @@ svg{
 .navBar__button-open-div{
     position: absolute;
 }
-
+ 
     .active{
         color:aliceblue
     }
@@ -48,6 +50,9 @@ svg{
         display: none;
     }
     .navBar{
+        position: fixed;
+        background-color: #141414;
+        border-radius: 15px;
         margin-left:15%;
        color:grey;
         font-size: 1rem;
@@ -60,31 +65,38 @@ svg{
         display: none;
     }
     .navBar__li{
+        
     border:none;
     height:50%;
     padding:2px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
     margin-top: 10px;
     border-radius: 10px;
     
+    
 }
 .navBar__item{
-    margin-top:6px;
+    text-decoration: none;
+    margin-top:10px;
     text-align: center;
+    vertical-align: middle;
+    color:grey
 }
 .navBar__search{
 background: none;
 border:1px groove whitesmoke;
 border-radius:15px;
 width:10rem;
-margin-left:50px;
-margin-top:5px;
-display:block;
+height:1rem;
+position:relative;
+display:inline-flex;
 color:aliceblue;
+left:20px;
 }
 .navBar__li-first{
-    margin-left:10%;
+    margin-left:25%;
 }
 .navBar__li:hover{
     background-color: rgb(49, 49, 56);
@@ -93,9 +105,20 @@ color:aliceblue;
 background: none;
 }
 .navBar__search-div{
-    display:block;
-    position: absolute;
-    margin-left:48%;
-    margin-top:-5px;
+    display:inline-flex;
+    width:30vw;
+    position:relative;
+    bottom:-0.7vh;
+    left:80px;
+}
+.navBar__search-icon-div{
+    position:relative;
+    top:-25px;
+}
+.active{
+    color:aliceblue
+}
+.active:hover{
+    background: none;
 }
   }

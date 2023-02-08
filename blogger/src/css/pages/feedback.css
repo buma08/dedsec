@@ -1,0 +1,89 @@
+.feedback__container{
+    display:flex
+}
+
+.feedback__container > *{
+    margin: auto;
+}
+
+.feedback__title{
+    color:white;
+    font-size: 3rem;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:9vh;
+    position: relative;
+}
+.feedback__subtitle{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top:2vh;
+}
+.feedback__share-message{
+    background-color: #101629;
+    border-radius: 5px;
+    border: 1px solid rgb(45, 45, 45);
+    width: 672px;
+    height: 170px;
+    margin-top:6vh;
+}
+
+.feedback__share-message__title{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+}
+.feedback__share-message__input{
+    background-color: #252525;
+    
+    border: none;
+    height:4vh;
+    width:81%;
+    margin-left: 1.5vw;
+    margin-top: 1.5vh;
+    border-radius: 5px;
+    color:white;
+}
+.feedback__share-message__submit{
+    background: #696969;
+    height:3.25vh;
+    width:5vw;
+    border-radius: 5px;
+    border:none;
+    position: relative;
+    right:100px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feedback__share-message__p{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 2.5vh;
+    margin-left: 1.5vw;
+}
+
+
+
+.feedback__comments-container{
+    display:flex;
+    flex-direction: column;
+    margin-top:10vh;
+}
+
+.feedback__comment{
+    margin-bottom: 3.5vh;
+}
+.feedback__comment-title{
+    color:white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feedback__comment-subtitle{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.6vh;
+    font-size: 0.85rem;
+}

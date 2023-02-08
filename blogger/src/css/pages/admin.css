@@ -1,0 +1,107 @@
+
+.admin__container{
+    display:flex
+}
+.admin__container > * {
+    margin: auto;
+}
+.admin{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admin__title{
+    color:white;
+    font-size: 3rem;
+    margin-top: 14vh;
+
+    text-align: center;
+}
+ 
+.admin-panel{
+    justify-content: center;
+}
+
+.ap__add-button{
+    background: rgb(82, 164, 82);
+    border:none;
+    height:5vh;
+    width:10vw;
+    transition: all 0.2s;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left:15%;
+    
+    
+}
+.ap__add-button:hover{
+    background: rgb(100, 232, 100);
+}
+
+.ap__select-create{
+    display: none;
+}
+.ap__select-create-active{
+    display:flex;
+    background-color: rgb(148, 158, 167);
+    margin-top: 2vh;
+    border-radius: 15px;
+    height:5vh;
+    width:15vw;
+    position: static;
+    right:2vw;
+    
+}
+
+
+.ap__select-create-button{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width:40%;
+    height: 3vh;
+    margin:0.7vw;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+.ap__select-create-button:hover{
+    background: rgb(198, 198, 198)
+}
+
+
+
+
+
+
+/*    LOGIN FORM    */
+.login-form{
+    
+    height: 50vh;
+    width:35vw;
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    }
+.lf-title{
+    text-align: center;
+    color: aliceblue;
+}
+.lf-input{
+    width:15vw;
+    margin-left: 10vw;
+    height: 3.5vh;
+    margin-bottom: 3vh;
+    background: none;
+    border:1px solid rgb(155, 155, 155);
+    color:white;
+}
+.lf-button{
+    background-color: rgb(35, 31, 90);
+    height: 5vh;
+    width: 20vw;
+    margin-left: 8vw;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.lf-button:hover{
+    background-color: rgb(74, 66, 184);
+}
